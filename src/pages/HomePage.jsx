@@ -15,7 +15,7 @@ function HomePage() {
 
     <div className="container text-center mt-5">
 <img
-  src="/Mi_portafolio/public/Perfil.jpg"
+  src="/Mi_portafolio/public/perfil.jpg"
   alt="foto perfil"
   className="rounded-circle mb-4"
   style={{
