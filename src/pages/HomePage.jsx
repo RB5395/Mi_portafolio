@@ -14,19 +14,23 @@ function HomePage() {
   return (
 
     <div className="container text-center mt-5">
-
-      <img
-        src="https://i.pravatar.cc/200"
-        alt="foto perfil"
-        className="rounded-circle mb-4"
-      />
+<img
+  src="/Mi_portafolio/public/Perfil.jpg"
+  alt="foto perfil"
+  className="rounded-circle mb-4"
+  style={{
+    width: '200px',
+    height: '200px',
+    objectFit: 'cover'
+  }}
+/>
 
       <h1>
-        Mariana Cepeda
+        Angely Mariana Cepeda
       </h1>
 
       <p className="lead">
-        Estudiante de Analista de Sistemas | Frontend Developer
+        Estudiante de Analista de Sistemas | Frontend Developer 
       </p>
 
       <div className="mt-4">
@@ -45,8 +49,35 @@ function HomePage() {
         className="btn btn-primary mt-4"
       >
         Contactarme
-      </Link>
+        
+      </Link><div className="mt-4">
 
+      <a
+        href="https://github.com/RB5395"
+        target="_blank"
+        className="btn btn-dark me-2"
+      >
+         GitHub
+      </a>
+
+      <a
+         href="https://linkedin.com"
+         target="_blank"
+         className="btn btn-primary"
+      >
+         LinkedIn
+        </a>
+
+
+
+      </div>
+      <a
+        href="/Mi_portafolio/cv.pdf"
+        download
+        className="btn btn-success mt-3"
+      >
+        Descargar CV
+      </a>
     </div>
   );
 }

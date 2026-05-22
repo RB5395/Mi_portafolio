@@ -9,7 +9,7 @@ function ProjectCard({
 
   return (
 
-    <div className="card mb-4 shadow">
+    <div className="card shadow-sm h-100">
 
       <img
         src={imagen}

@@ -6,7 +6,7 @@ import ProjectsPage from './pages/ProjectsPage';
 import ContactPage from './pages/ContactPage';
 import Navbar from './components/Navbar';
 import useLocalStorage from './hooks/useLocalStorage';
-
+import Footer from './components/Footer';
 function App() {
 
   const [tema, setTema] = useLocalStorage('tema', 'light');
@@ -38,6 +38,7 @@ return (
       <Route path="/projects" element={<ProjectsPage />} />
       <Route path="/contact" element={<ContactPage />} />
     </Routes>
+    <Footer />
 
   </div>
 );

@@ -8,13 +8,13 @@ function AboutPage() {
   const experiencia = [
     {
       puesto: 'Proyecto Portafolio React',
-      empresa: 'Facultad',
+      empresa: 'Instituto Cervantes',
       año: '2026',
     },
     {
       puesto: 'Sistema de Gestión',
       empresa: 'Proyecto Académico',
-      año: '2025',
+      año: '2025-2026',
     },
   ];
 
@@ -40,9 +40,25 @@ function AboutPage() {
       <h1>Sobre mí</h1>
 
       <p className="mt-4">
-        Soy estudiante de Analista de Sistemas
-        interesada en desarrollo frontend,
-        diseño web y aplicaciones modernas.
+     <p>
+  Soy estudiante de Analista de Sistemas con interés en
+  desarrollo frontend y tecnologías web modernas.
+
+  Actualmente trabajo con React, JavaScript y Bootstrap
+  desarrollando proyectos académicos y personales.
+</p>
+
+<p>
+  Me interesa crear interfaces modernas, funcionales y
+  mejorar constantemente mis habilidades como desarrolladora.
+</p>
+
+<p>
+
+
+
+  
+</p>
       </p>
 
       <button
